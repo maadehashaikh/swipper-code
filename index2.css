@@ -1,5 +1,5 @@
 body {
-  background: teal;
+  background: black;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
   margin: 0;
@@ -12,6 +12,7 @@ body {
   height: 100vh;
   position: relative;
   left: 380px;
+  background-color: rgb(231, 49, 49);
 }
 .mySwiper {
   height: 100vh;
@@ -24,20 +25,63 @@ body {
   align-items: center;
   height: 600px;
 }
-.swiper-slide {
+.swiper-slide{
   text-align: center;
   font-size: 18px;
-  background: #eb0101;
   width: 300px;
-  height: 30vh;
+  height: auto;
   border: 2px solid black;
-  margin-bottom: 3px;
+  padding: 10px;
+  margin: 10px;
+  position: relative;
+  opacity: 70%;
+}
+.swiper-slide-prev{
+opacity: 50%;
+/* width: 200px; */
 }
 .swiper-slide img {
-  background-color: aqua;
-  width: 100px;
+  width: 110px;
   height: 100px;
-  border-radius: 50px;
+  border-radius: 10px;
   margin-top: 10px;
-  object-fit: cover;
+  margin-right: 84%;
+  object-fit: cover;
+  border: 2px solid black;
+}
+.swiper-slide-active {
+  width: 300px;
+  /* height: calc(150.2px + 20px) !important; */
+  transform: scale(1.1);
+  padding: 20px;
+  z-index: 1;
+  transition: 0.3s all;
+  border: 4px solid white; 
+  opacity: 100%;
+}
+.slider1 .name , .slider2 .name , .slider3 .name ,.slider4 .name ,.slider5 .name{  
+ position: absolute;  
+ display: inline;
+ right: 10%;
+ bottom: 44%;
+ font-size: 20px;
+ font-family: 'Times New Roman', Times, serif;
+ font-weight: 600;
+ color: white;
+}
+.slider1 .skills, .slider2 .skills , .slider3 .skills ,.slider4 .skills , .slider5 .skills{
+ position: absolute;  
+ display: inline;
+ right: 18%;
+ bottom: 28%;
+ font-size: 18px;
+ font-family: 'Times New Roman', Times, serif;
+}
+.slider1 .workAt , .slider2 .workAt , .slider3 .workAt , .slider4 .workAt , .slider5 .workAt{
+  position: absolute;  
+ display: inline;
+ right: 2%;
+ bottom: 15%;
+ font-size: 15px;
+ font-family: 'Times New Roman', Times, serif;
 }
