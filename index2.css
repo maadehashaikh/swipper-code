@@ -7,6 +7,12 @@ body {
   position: relative;
   height: 100%;
 }
+.mainCover{
+  height: 10vh;
+  width: 10%;
+  position: relative;
+  background-color: orange;
+}
 .swiper {
   width: 30%;
   height: 100vh;
