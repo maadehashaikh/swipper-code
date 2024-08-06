@@ -8,9 +8,11 @@ body {
   height: 100%;
 }
 .mainCover{
-  height: 10vh;
-  width: 10%;
-  position: relative;
+  height: 100vh;
+  width: 40%;
+  position: absolute;
+  left: 0;
+  bottom: 3%;
   background-color: orange;
 }
 .swiper {
@@ -18,7 +20,7 @@ body {
   height: 100vh;
   position: relative;
   left: 380px;
-  background-color: rgb(231, 49, 49);
+  background-color: rgb(165, 153, 153);
 }
 .mySwiper {
   height: 100vh;
@@ -50,44 +52,158 @@ opacity: 50%;
   width: 110px;
   height: 100px;
   border-radius: 10px;
-  margin-top: 10px;
+  margin-top: 8px;
   margin-right: 84%;
   object-fit: cover;
   border: 2px solid black;
 }
 .swiper-slide-active {
   width: 300px;
-  /* height: calc(150.2px + 20px) !important; */
   transform: scale(1.1);
-  padding: 20px;
+  padding: 18px 15px;
   z-index: 1;
   transition: 0.3s all;
   border: 4px solid white; 
   opacity: 100%;
 }
-.slider1 .name , .slider2 .name , .slider3 .name ,.slider4 .name ,.slider5 .name{  
+.slider1 .name{  
  position: absolute;  
  display: inline;
- right: 10%;
- bottom: 44%;
+ right: 17%;
+ bottom: 48%;
  font-size: 20px;
  font-family: 'Times New Roman', Times, serif;
  font-weight: 600;
  color: white;
+
 }
-.slider1 .skills, .slider2 .skills , .slider3 .skills ,.slider4 .skills , .slider5 .skills{
- position: absolute;  
- display: inline;
- right: 18%;
- bottom: 28%;
- font-size: 18px;
- font-family: 'Times New Roman', Times, serif;
+.slider1 .position{
+  position: absolute;  
+  display: inline;
+  right: 11%;
+  bottom: 30%;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif; 
+  color: white;
 }
-.slider1 .workAt , .slider2 .workAt , .slider3 .workAt , .slider4 .workAt , .slider5 .workAt{
+.slider1 .workExp{
   position: absolute;  
  display: inline;
- right: 2%;
- bottom: 15%;
- font-size: 15px;
- font-family: 'Times New Roman', Times, serif;
+ right: 9%;
+ bottom: 14%;
+  font-family: 'Times New Roman', Times, serif;
+ font-size: 16px;
+ color: white;
 }
+.slider2 .name{  
+  position: absolute;  
+  display: inline;
+  right: 5%;
+  bottom: 49%;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  color: white;
+ }
+ .slider2 .position{
+   position: absolute;  
+   display: inline;
+   right: 13.5%;
+   bottom: 31%;
+   font-size: 18px;
+   font-family: 'Times New Roman', Times, serif; 
+   color: white;
+ }
+ .slider2 .workExp{
+   position: absolute;  
+  display: inline;
+  right: 8%;
+  bottom: 14%;
+   font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  color: white;
+ }
+ .slider3 .name{
+  position: absolute;  
+  display: inline;
+  right: 20%;
+  bottom: 51%;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  color: white;
+ }
+ .slider3 .position {
+  position: absolute;  
+ display: inline;
+ right: 11%;
+ bottom: 33%;
+ font-size: 18px;
+ font-family: 'Times New Roman', Times, serif;
+ color: white;
+ }
+ .slider3 .workExp{
+  position: absolute;  
+  display: inline;
+  right: 8%;
+  bottom: 16%;
+   font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  color: white;
+ }
+ .slider4 .name{
+  position: absolute;  
+  display: inline;
+  right: 27%;
+  bottom: 51%;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  color: white;
+ }
+ .slider4 .position {
+  position: absolute;  
+ display: inline;
+ right: 26%;
+ bottom: 33%;
+ font-size: 18px;
+ font-family: 'Times New Roman', Times, serif;
+ color: white;
+ }
+ .slider4 .workExp{
+  position: absolute;  
+  display: inline;
+  right: 10%;
+  bottom: 16%;
+   font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  color: white;
+ }
+ .slider5 .name{
+  position: absolute;  
+  display: inline;
+  right: 18%;
+  bottom: 51%;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  color: white;
+ }
+ .slider5 .position {
+  position: absolute;  
+ display: inline;
+ right: 26%;
+ bottom: 33%;
+font-size: 18px;
+ font-family: 'Times New Roman', Times, serif;
+ color: white;
+ }
+ .slider5 .workExp{
+  position: absolute;  
+  display: inline;
+  right: 10%;
+  bottom: 16%;
+   font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  color: white;
+ }
