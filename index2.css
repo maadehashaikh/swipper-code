@@ -21,6 +21,7 @@ body {
   width: 30%;
   height: 100vh;
   position: relative;
+  /* padding: 4px; */
   left: 380px;
   background-color: rgb(52, 47, 47);
 }
